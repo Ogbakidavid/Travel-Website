@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website | Creative Code</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- ========= css Link ========== -->
+    <link 
+    rel="stylesheet" href="styles.css"
+    >
+
+    <!-- ========= Remix Icon ========= -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+</head>
+<body>
+    <!-- ========= Navbar Section ========= -->
+    <section class="home" id="home">
+    <nav class="navbar" data-header>
+        <div class="navbar__logo">Travel</div>
+        <div class="navbar__toggle" id="mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="navbar__menu" data-menu>
+            <ul class="navbar__list">
+                <li class="navbar__item"><a href="#home" class="navbar__link active">Home</a></li>
+                <li class="navbar__item"><a href="#about" class="navbar__link">About</a></li>
+                <li class="navbar__item"><a href="#popular" class="navbar__link">Popular</a></li>
+                <li class="navbar__item"><a href="#explore" class="navbar__link">Explore</a></li>
+                <!-- <li class="navbar__item"><a href="/" class="navbar__link">Join</a></li> -->
+            </ul>
+        </div>
+
+        <div class="overlay" data-overlay data-nav-toggler></div>
+    </nav>
+
+    <!-- ========= Hero Section ============ -->
+    <div class="hero">
+        <div class="hero__container">
+            <div class="hero__content">
+                <div class="hero__data">
+                    <h5 class="top__line">Welcome To Travel</h5>
+                    <h1>Explore <br> The World</h1>
+                    <p class="desc">
+                        Live the trips exploring the world, discover 
+                        paradises, <br>islands, mountains and much 
+                        more, get your trip now.
+                    </p>
+                    <button>Start Your Journey <i class="ri-arrow-right-line"></i></button>
+                </div>
+
+                <ul class="hero__card">
+                    <li class="card">
+                        <img src="assets/images/home-trees.jpg" alt="trees">
+                        <span>Croatia</span>
+                        <div class="card__shadow"></div>
+                    </li>
+                    <li class="card">
+                        <img src="assets/images/home-lake.jpg" alt="">
+                        <span>Iceland</span>
+                        <div class="card__shadow"></div>
+                    </li>
+                    <li class="card">
+                        <img src="assets/images/home-mountain.jpg" alt="">
+                        <span>Italy</span>
+                        <div class="card__shadow"></div>
+                    </li>
+                    <li class="card">
+                        <img src="assets/images/home-beach.jpg" alt="">
+                        <span>Spain</span>
+                        <div class="card__shadow"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- ========== About Section ========== -->
+    <section class="about" id="about">
+        <ul class="about__container">
+            <li class="about__content">
+                <h2>Learn More <br>About Travel</h2>
+                <p class="desc">
+                    All the trips around the world are a great 
+                    pleasure and happiness for anyone, enjoy 
+                    the sights when you travel the world. Travel 
+                    safely and without worries, get your trip and 
+                    explore the paradises of the world.
+                </p>
+                <button>Explore Travel <i class="ri-arrow-right-line"></i></button>
+            </li>
+
+            <div class="about__img">
+                <img src="assets/images/about-beach.jpg" alt="beach">
+            </div>
+        </ul>
+    </section>
+
+    <!-- ========== Popular Section ========== -->
+    <section class="popular" id="popular">
+        <h2>Enjoy The Beauty <br> Of The World</h2>
+        <div class="popular__container">
+            <ul class="popular__card">
+                <li class="card__data">
+                    <img src="assets/images/popular-mountain.jpg" alt="mountain">
+                    <p class="title">Logan Mountain</p>
+                    <span><i class="ri-map-pin-line"></i>Canada</span>
+                </li>
+                <li class="card__data">
+                    <img src="assets/images/popular-forest.jpg" alt="forest">
+                    <p class="title">Spike Forest</p>
+                    <span><i class="ri-map-pin-line"></i>Ireland</span>
+                </li>
+                <li class="card__data">
+                    <img src="assets/images/popular-lake.jpg" alt="lake">
+                    <p class="title">Garda Lake</p>
+                    <span><i class="ri-map-pin-line"></i> Italy</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ========== Explore Section =========== -->
+    <section class="explore" id="explore">
+        <div class="explore__container">
+            <div class="explore__content">
+                <h2>Explore The <br> Best Paradises</h2>
+                <p class="desc">
+                    Exploring paradises such as islands and 
+                    valleys when traveling the world is one of 
+                    <br>the greatest experiences when you travel, it 
+                    offers you harmony and peace and you 
+                    <br>can enjoy it with great comfort.
+                </p>
+                <div class="explore__profile">
+                    <img src="assets/images/explore-perfil.png" alt="explorer">
+                    <span>Paul James</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Join Section ========== -->
+    <section class="join">
+        <div class="join__container">
+            <div class="join__img">
+                <img src="assets/images/join-island.jpg" alt="island">
+            </div>
+
+            <div class="join__content">
+                <h2>Your Journey <br> Starts Here</h2>
+                <p class="desc"> 
+                    Get up to date with the latest 
+                    travel and <br>information from us.
+                </p>
+                <div class="input__box">
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+                <button type="submit">Subscribe Our Newsletter <i class="ri-arrow-right-line"></i> </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Footer Section ========== -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <h3>Travel</h3>
+                <span>
+                    Travel with us and explore <br> 
+                    the world without limits.
+                </span>
+            </div>
+
+            <div class="footer__link">
+                <ul class="footer__list">
+                    <li class="title">
+                        <h4>About</h4>
+                    </li>
+                    <li class="footer__links">
+                        <a href="/">About Us</a>
+                    </li>
+                    <li class="footer__links">
+                        <a href="/">Features</a>
+                    </li>
+                    <li class="footer__links">
+                        <a href="/">News & Blog</a>
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="title">
+                        <h4>Company</h4>
+                    </li>
+                    <li class="footer__links">
+                        <a href="/">FAQs</a>
+                    </li>
+                    <li class="footer__links">
+                        <a href="/">History</a>
+                    </li>
+                    <li class="footer__links">
+                        <a href="/">Testimonials</a>
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="title">
+                        <h4>Contact</h4>
+                    </li>
+                    <li class="footer__links">
+                        <a href="/">Call Center</a>
+                    </li>
+                    <li class="footer__links">
+                        <a href="/">Support Center</a>
+                    </li>
+                    <li class="footer__links">
+                        <a href="/">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="title">
+                        <h4>Support</h4>
+                    </li>
+                    <li class="footer__links">
+                        <a href="/">Privacy Policy</a>
+                    </li>
+                    <li class="footer__links">
+                        <a href="/">Terms & Services</a>
+                    </li>
+                    <li class="footer__links">
+                        <a href="/">Payments</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="social__link">
+        <div class="copy__right">
+            <p>
+                &copy; Copyright CreativeCode. All rights reserved
+            </p>
+        </div>
+
+            <ul class="social__links">
+                <li>
+                    <a href="https://www.github.com/Ogbakidavid" target="_blank"><i class="ri-github-line"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" target="_blank"><i class="ri-twitter-x-line"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="ri-facebook-circle-line"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/the_boy_ogbaki" target="_blank"><i class="ri-instagram-line"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="ri-youtube-line"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- =============== Scroll Up ============== -->
+     <a href="#" class="scroll__up" id="scroll__up" data-scroll-up>
+        <i class="ri-arrow-up-line"></i>
+     </a>
+    
+    <!-- ============ Scroll Reveal =========== -->
+     <script src="/assets/js/scrollreveal.min.js"></script>
+    <script src="/assets/js/app.js"></script>
+</body>
+</html>
